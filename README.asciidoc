@@ -1,0 +1,38 @@
+== configuration
+:idprefix: id_ 
+
+This addon provides *standalone* functionality. The cache addon enables caching temporary properties.
+
+=== Depends on
+
+[options="header"]
+|===
+|Addon |Exported |Optional
+
+|org.jboss.forge.furnace.container:cdi
+|yes
+|no
+
+|===
+
+== Setup
+
+This Addon requires the following installation steps.
+
+=== Add configuration to pom.xml 
+
+To use this addon, you must add it as a dependency in the *pom.xml* of your `forge-addon` classified artifact:
+
+[source,xml]
+----
+<dependency>
+   <groupId>org.jboss.forge.addon</groupId>
+   <artifactId>cache</artifactId>
+   <classifier>forge-addon</classifier>
+   <version>${version}</version>
+</dependency>
+----
+
+== Features
+
+ 
