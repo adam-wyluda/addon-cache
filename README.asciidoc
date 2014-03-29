@@ -1,4 +1,4 @@
-== configuration
+== cache
 :idprefix: id_ 
 
 This addon provides *standalone* functionality. The cache addon enables caching temporary properties.
